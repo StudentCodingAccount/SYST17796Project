@@ -3,6 +3,7 @@
  * Students can modify and extend to implement their game.
  * Add your name as an author and the date!
  */
+
 package ca.sheridancollege.project;
 
 /**
@@ -10,6 +11,7 @@ package ca.sheridancollege.project;
  * game. Students wishing to add to the code should remember to add themselves as a modifier.
  *
  * @author dancye
+ * @author Ethan Dao
  */
 public abstract class Card {
     //default modifier for child classes
@@ -19,6 +21,22 @@ public abstract class Card {
      *
      * @return a String representation of a card. Could be an UNO card, a regular playing card etc.
      */
+    private final CARDVALUE = {1,2};
+    private final CARDTYPE = {a,b};
+    
+    private String cardValue
+    private String cardType;
+    
+    public void setCard(int cardValue, int cardType){
+        
+        if(cardValue>CARDVALUE.length){cardValue = 0;}
+        if(cardType>CARDTYPE.length){cardtype = 0}
+        
+        this.cardValue = CARDVALUE[cardValue];
+        this.cardType = CARDTYPE[cardType];
+        
+    }
+    
     @Override
     public abstract String toString();
 
