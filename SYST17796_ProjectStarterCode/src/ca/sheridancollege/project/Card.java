@@ -21,8 +21,8 @@ public abstract class Card {
      *
      * @return a String representation of a card. Could be an UNO card, a regular playing card etc.
      */
-    private final CARDVALUE = {1,2};
-    private final CARDTYPE = {a,b};
+    private final CARDVALUE = {0,1,2,3,4,5,6,7,8,9};
+    private final CARDTYPE = {Red,Blue,Green,Yellow};
     
     private String cardValue
     private String cardType;
