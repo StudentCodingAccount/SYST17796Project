@@ -66,12 +66,14 @@ public class GroupOfCards {
     }
     
     private void createDeck(int noOfDecks){
+        card input = new card();
         cards.clear();
         size=noOfDecks*40;
         for(int i=0;i<noOfDecks;i++){
             for(int x=0;x<4;x++){
                 for(int y=0;y<9;y++){
-                    cards.add();
+                    input.setCard(y,x);
+                    cards.add(input);
                 }
             }
         }
