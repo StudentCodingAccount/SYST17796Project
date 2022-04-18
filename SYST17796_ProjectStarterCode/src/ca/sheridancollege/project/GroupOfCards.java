@@ -25,6 +25,10 @@ public class GroupOfCards {
     public GroupOfCards(int size) {
         this.size = size;
     }
+    
+    public GroupOfCards(){
+    
+    }
 
     /**
      * A method that will get the group of cards as an ArrayList
@@ -61,8 +65,16 @@ public class GroupOfCards {
     
     }
     
-    public void createDeck(int noOfDecks){
-    
+    private void createDeck(int noOfDecks){
+        cards.clear();
+        size=noOfDecks*40;
+        for(int i=0;i<noOfDecks;i++){
+            for(int x=0;x<4;x++){
+                for(int y=0;y<9;y++){
+                    cards.add();
+                }
+            }
+        }
     }
 
 }//end class
