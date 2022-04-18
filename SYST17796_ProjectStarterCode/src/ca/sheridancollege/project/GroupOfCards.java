@@ -14,6 +14,7 @@ import java.util.Collections;
  *
  * @author dancye
  * @author Paul Bonenfant Jan 2020
+ * @author Ethan Dao Apr 2022
  */
 public class GroupOfCards {
 
@@ -50,6 +51,18 @@ public class GroupOfCards {
      */
     public void setSize(int size) {
         this.size = size;
+    }
+    
+    public void removeCard(int cardValue){
+    
+    }
+    
+    public void removeCard(card cardAdded){
+    
+    }
+    
+    public void createDeck(int noOfDecks){
+    
     }
 
 }//end class
