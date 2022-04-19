@@ -58,11 +58,11 @@ public class GroupOfCards {
     }
     
     public void removeCard(int cardValue){
-    
+        cards.remove(cardValue);
     }
     
     public void addCard(card cardAdded){
-    
+        cards.add(cardAdded);
     }
     
     private void createDeck(int noOfDecks){
