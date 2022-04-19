@@ -61,7 +61,7 @@ public class GroupOfCards {
     
     }
     
-    public void removeCard(card cardAdded){
+    public void addCard(card cardAdded){
     
     }
     
