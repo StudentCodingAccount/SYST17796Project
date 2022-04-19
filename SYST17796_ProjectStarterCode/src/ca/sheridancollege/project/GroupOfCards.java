@@ -14,7 +14,7 @@ import java.util.Collections;
  *
  * @author dancye
  * @author Paul Bonenfant Jan 2020
- * @author Ethan Dao Apr 2022
+ * @modifier Ethan Dao Apr 2022
  */
 public class GroupOfCards {
 
